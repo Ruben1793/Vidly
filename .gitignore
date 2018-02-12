@@ -65,3 +65,17 @@ Icon?
 Thumbs.db
 
 \.vs/
+
+packages/Microsoft\.AspNet\.WebApi\.WebHost\.5\.2\.3/
+
+packages/Microsoft\.AspNet\.WebApi\.Core\.5\.2\.3/lib/net45/
+
+packages/Microsoft\.AspNet\.WebApi\.Core\.5\.2\.3/
+
+packages/Microsoft\.AspNet\.WebApi\.Client\.5\.2\.3/lib/portable-wp8%2Bnetcore45%2Bnet45%2Bwp81%2Bwpa81/
+
+packages/Microsoft\.AspNet\.WebApi\.Client\.5\.2\.3/lib/net45/
+
+packages/Microsoft\.AspNet\.WebApi\.5\.2\.3/
+
+packages/Microsoft\.AspNet\.WebApi\.Client\.5\.2\.3/
