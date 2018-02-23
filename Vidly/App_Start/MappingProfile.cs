@@ -11,6 +11,8 @@ namespace Vidly.App_Start
             //Domain to DTO
             CreateMap<Customer, CustomerDto>();
             CreateMap<Movie, MovieDto>();
+            CreateMap<MembershipType, MembershipTypeDto>();
+
 
             //DTO to Domain
             CreateMap<CustomerDto, Customer>().ForMember(c=>c.Id, opt => opt.Ignore());
