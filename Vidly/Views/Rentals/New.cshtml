@@ -35,7 +35,7 @@
         $(document).ready(function () {
 
             var vm = {
-                movieIds: []
+                MovieIds: []
             };
 
             var customers = new Bloodhound({
@@ -55,7 +55,7 @@
                     display: 'name',
                     source: customers
                 }).on("typeahead:select", function (e, customer) {
-                    vm.customerId = customer.id;
+                    vm.CustomerId = customer.id;
                 });
 
             var movies = new Bloodhound({
@@ -79,18 +79,17 @@
 
                     $("#movie").typeahead("val", "");
 
-                    vm.movieIds.push(movie.id);
+                    vm.MovieIds.push(movie.id);
                 });
 
             $("#newRental").submit(function (e) {
-                e.preventDefault();
+                e.preventDefault(); //prevent the form from submiting normally
 
                 $.ajax({
                     url: "/api/newRentals",
                     method: "post",
                     data: vm
-                })
-                    .done(function () {
+                }).done(function () {
                         console.log("done");
                     })
                     .fail(function () {
