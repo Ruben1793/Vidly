@@ -306,6 +306,18 @@
     <Compile Include="Migrations\201803192335465_AddNumberAvailableToMovie.Designer.cs">
       <DependentUpon>201803192335465_AddNumberAvailableToMovie.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803250604231_ChangeRentalToDateTime2.cs" />
+    <Compile Include="Migrations\201803250604231_ChangeRentalToDateTime2.Designer.cs">
+      <DependentUpon>201803250604231_ChangeRentalToDateTime2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803250614193_ChangeDateTime2Precision.cs" />
+    <Compile Include="Migrations\201803250614193_ChangeDateTime2Precision.Designer.cs">
+      <DependentUpon>201803250614193_ChangeDateTime2Precision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803250617419_RentalAllowNull.cs" />
+    <Compile Include="Migrations\201803250617419_RentalAllowNull.Designer.cs">
+      <DependentUpon>201803250617419_RentalAllowNull.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -433,6 +445,8 @@
     <Content Include="Content\DataTables\images\sort_desc.png" />
     <Content Include="Content\DataTables\images\sort_desc_disabled.png" />
     <Content Include="Content\DataTables\swf\flashExport.swf" />
+    <Content Include="Content\toastr.css" />
+    <Content Include="Content\toastr.min.css" />
     <Content Include="Content\typeahead.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -449,6 +463,8 @@
     </Content>
     <Content Include="Content\DataTables\css\mixins.scss" />
     <Content Include="Content\DataTables\css\common.scss" />
+    <Content Include="Content\toastr.scss" />
+    <Content Include="Content\toastr.less" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\DataTables\autoFill.bootstrap.js" />
     <Content Include="Scripts\DataTables\autoFill.bootstrap.min.js" />
@@ -524,6 +540,8 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\toastr.js" />
+    <Content Include="Scripts\toastr.min.js" />
     <Content Include="Scripts\typeahead.bundle.js" />
     <Content Include="Scripts\typeahead.bundle.min.js" />
     <Content Include="Scripts\typeahead.jquery.js" />
@@ -641,6 +659,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201803192335465_AddNumberAvailableToMovie.resx">
       <DependentUpon>201803192335465_AddNumberAvailableToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803250604231_ChangeRentalToDateTime2.resx">
+      <DependentUpon>201803250604231_ChangeRentalToDateTime2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803250614193_ChangeDateTime2Precision.resx">
+      <DependentUpon>201803250614193_ChangeDateTime2Precision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803250617419_RentalAllowNull.resx">
+      <DependentUpon>201803250617419_RentalAllowNull.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
